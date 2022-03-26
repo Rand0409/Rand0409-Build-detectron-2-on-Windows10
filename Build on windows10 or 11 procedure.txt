@@ -1,0 +1,16 @@
+1. vs2019
+https://blog.csdn.net/weixin_42644340/article/details/109178660
+
+2. install pycocotools
+pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+https://blog.csdn.net/tanmx219/article/details/107437267
+
+3. download package
+git clone https://github.com/facebookresearch/detectron2.git
+
+4. change torch files in Anaconda3 & setup files in detection/setup.py
+https://blog.csdn.net/weixin_42644340/article/details/109178660
+https://blog.csdn.net/tanmx219/article/details/107437267
+https://github.com/Ikomia-dev/detectron2/commit/cf546cfdae29b1f032f58a7d0340140443ee0603  LAST ONE IS VERY IMPORTANT
+
+5. python setup.py build --force develop
